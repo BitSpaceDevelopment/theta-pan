@@ -17,5 +17,10 @@
   "cordovaPlugins": [
     "com.ionic.keyboard"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "locator": "firefoxos"
+    }
+  ]
 }
