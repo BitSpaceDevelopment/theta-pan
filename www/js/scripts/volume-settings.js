@@ -1,8 +1,5 @@
-/*jslint browser: true, maxerr: 50, maxlen: 80 */
+Theta.volumesettings = function (util) {
 
-/*global define */
-
-define(['util'], function (util) {
     'use strict';
 
     var getVolume, getInputEl, updateIndicator,

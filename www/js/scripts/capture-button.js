@@ -2,9 +2,7 @@
 
 /*global define */
 
-define([
-    'util', 'capture-loop', 'intervalometer-settings', 'connection'
-], function (util, captureLoop, intervalometerSettings, connection) {
+Theta.capturebutton = function (util, captureLoop, intervalometerSettings, connection) {
     'use strict';
 
     var setStatus, start, onStopRequested, onStopped, onCaptureStarted,

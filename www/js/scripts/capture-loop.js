@@ -1,11 +1,5 @@
-/*jslint browser: true, maxerr: 50, maxlen: 80 */
 
-/*global define */
-
-define([
-    'util', 'exposure-settings', 'intervalometer-settings', 'volume-settings',
-    'battery-meter', 'reset', 'ptp.js/ptp'
-], function (util, exposureSettings, intervalometerSettings, volumeSettings,
+Theta.captureloop = function (util, exposureSettings, intervalometerSettings, volumeSettings,
              batteryMeter, reset, ptp) {
     'use strict';
 

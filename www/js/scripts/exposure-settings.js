@@ -1,8 +1,6 @@
-/*jslint browser: true, maxerr: 50, maxlen: 80 */
 
-/*global define */
 
-define(function () {
+Theta.exposuresettings = function () {
     'use strict';
 
     return Object.create(null, {

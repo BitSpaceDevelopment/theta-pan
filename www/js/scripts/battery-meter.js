@@ -1,8 +1,5 @@
-/*jslint browser: true, maxerr: 50, maxlen: 80 */
 
-/*global define */
-
-define(['ptp.js/ptp'], function (ptp) {
+Theta.btterymeter = function (ptp) {
     'use strict';
 
     var update, setClassName, needsUpdate, timeOfLastUpdate,

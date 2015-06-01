@@ -1,10 +1,4 @@
-/*jslint browser: true, maxerr: 50, maxlen: 80 */
-
-/*global define */
-
-define([
-    'util', 'battery-meter', 'ptp.js/ptp'
-], function (util, batteryMeter, ptp) {
+Theta.connection = function (util, batteryMeter, ptp) {
     'use strict';
 
     var maintainConnection, onNoConnection = util.nop,

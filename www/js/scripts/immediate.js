@@ -1,6 +1,4 @@
-/*jslint browser: true, maxerr: 50, maxlen: 80 */
-
-(function () {
+Theta.immediate = function () {
     'use strict';
 
     // Workaround for: https://bugzilla.mozilla.org/show_bug.cgi?id=1038760

@@ -1,11 +1,5 @@
-// Resets camera to standard settings, useful when making pictures with the
-// hardware shutter button.
 
-/*jslint browser: true, maxerr: 50, maxlen: 80 */
-
-/*global define */
-
-define(['ptp.js/ptp'], function (ptp) {
+Theta.reset = function (ptp) {
     'use strict';
 
     var stage1, stage2;

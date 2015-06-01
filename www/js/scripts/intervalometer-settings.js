@@ -1,8 +1,5 @@
-/*jslint browser: true, maxerr: 50, maxlen: 80 */
 
-/*global define, Uint8Array */
-
-define(['util'], function (util) {
+Theta.intervalometer = function (util) {
     'use strict';
 
     var updateSettings, isEnabled, delay, onChanged = util.nop;
